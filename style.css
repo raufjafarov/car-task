@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+}
+
+
+.car-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info {
+    padding: 15px;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+    margin: 0;
+}
+
+.model {
+    color: red;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.details {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.location {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0;
+}
